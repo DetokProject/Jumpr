@@ -15,9 +15,7 @@ def Processor(data) :
     if Query["Type"]=="FIND" :
         a = Crawler()
     """
-    slave = Crawler.Crawler()
-    node = Crawler.Node(data,100000000)
-    slave.add_Queue(node)
+    slave = Crawler.Crawler(data)
 
     """
         New query Here
